@@ -1,8 +1,10 @@
+@charset "utf-16";
+
 body {
     background-color: gray;
 }
 
-textarea{
+textarea {
     resize: none;
 }
 
@@ -21,7 +23,7 @@ textarea{
     flex-direction: column;
 }
 
-.selectType{
+.selectType {
     width: 95%;
     margin-left: 3%;
     margin-right: 2%;
@@ -31,7 +33,7 @@ textarea{
     box-sizing: border-box;
 }
 
-.selectType > label{
+.selectType>label {
     margin-top: 2vh;
     margin-left: 4px;
     margin-right: 4px;
@@ -40,7 +42,7 @@ textarea{
     white-space: nowrap;
 }
 
-.tarea{
+.tarea {
     flex: 1;
     display: flex;
     flex-direction: row;
@@ -48,7 +50,7 @@ textarea{
     box-sizing: border-box;
 }
 
-.tarea > textarea{
+.tarea>textarea {
     flex: 1;
     height: auto;
     padding: 5px;
@@ -65,4 +67,3 @@ textarea{
 .output {
     background-color: antiquewhite;
 }
-
