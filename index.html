@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-16">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlphabetDecoration</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="title">
+        <h2>Decorated Alphabet</h2>
+    </div>
+    <div class="main">
+        <form id="rButton">
+            <div class="selectType">
+                <label><input type="radio" name="type" id="normal">𝖭𝗈𝗋𝗆𝖺𝗅</label><!--Num-->
+                <label><input type="radio" name="type" id="typewriter" checked>𝚃𝚢𝚙𝚎𝚆𝚛𝚒𝚝𝚎𝚛</label><!--Num-->
+                <label><input type="radio" name="type" id="bold1">𝐁𝐨𝐥𝐝𝟏</label><!--Num-->
+                <label><input type="radio" name="type" id="bold2">𝗕𝗼𝗹𝗱𝟮</label><!--Num-->
+                <label><input type="radio" name="type" id="italic1">𝐼𝑡𝑎𝑙𝑖𝑐1</label>
+                <label><input type="radio" name="type" id="italic2">𝘐𝘵𝘢𝘭𝘪𝘤2</label>
+                <label><input type="radio" name="type" id="boldItalic1">𝓑𝓸𝓵𝓭&𝓘𝓽𝓪𝓵𝓲𝓬1</label>
+                <label><input type="radio" name="type" id="boldItalic2">𝘽𝙤𝙡𝙙&𝙄𝙩𝙖𝙡𝙞𝙘2</label>
+                <label><input type="radio" name="type" id="cursive">𝒞𝓊𝓇𝓈𝒾𝓋𝒺</label>
+                <label><input type="radio" name="type" id="boldCursive">𝓑𝓸𝓵𝓭&𝓒𝓾𝓻𝓼𝓲𝓿𝓮</label>
+                <label><input type="radio" name="type" id="gothic1">𝔊𝔬𝔱𝔥𝔦𝔠</label>
+                <label><input type="radio" name="type" id="boldGothic">𝕭𝖔𝖑𝖉&𝕲𝖔𝖙𝖍𝖎𝖈</label>
+                <label><input type="radio" name="type" id="doubled">𝔻𝕠𝕦𝕓𝕝𝕖𝕕</label><!--Num-->
+                <label><input type="radio" name="type" id="small">🇸🇲🇦🇱🇱</label><!--Num-->
+                <label><input type="radio" name="type" id="bracket">🄑⒭⒜⒞⒦⒠⒯</label>
+                <label><input type="radio" name="type" id="circled1">Ⓒⓘⓡⓒⓛⓔⓓ1</label>
+                <label><input type="radio" name="type" id="circled2">🅒🅘🅡🅒🅛🅔🅓2</label>
+                <label><input type="radio" name="type" id="square1">🅂🅀🅄🄰🅁🄴1</label>
+                <label><input type="radio" name="type" id="square2">🆂🆀🆄🅰🆁🅴2</label>
+            </div>
+        </form>
+        <div class="tarea">
+            <textarea id="in" class="input">I love you all&#13;From Saitama&#13;11</textarea>
+            <textarea id="out" class="output" readonly>𝙸 𝚕𝚘𝚟𝚎 𝚢𝚘𝚞 𝚊𝚕𝚕&#13;𝙵𝚛𝚘𝚖 𝚂𝚊𝚒𝚝𝚊𝚖𝚊&#13;𝟷𝟷</textarea>
+        </div>
+    </div>
+    <p style="text-align: right; margin-top: 0;"><button onclick="clipboardCopy()">Copy</button></p>
+
+    <script src="./src/script.js"></script>
+</body>
+
+</html>

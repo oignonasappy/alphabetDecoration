@@ -1,0 +1,68 @@
+body {
+    background-color: gray;
+}
+
+textarea{
+    resize: none;
+}
+
+.title {
+    height: 5vh;
+    text-align: center;
+    line-height: 18px;
+}
+
+.main {
+    min-height: 80vh;
+    width: 100%;
+    background-color: rgb(100, 100, 100);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.selectType{
+    width: 95%;
+    margin-left: 3%;
+    margin-right: 2%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.selectType > label{
+    margin-top: 2vh;
+    margin-left: 4px;
+    margin-right: 4px;
+    flex: 1;
+    color: aliceblue;
+    white-space: nowrap;
+}
+
+.tarea{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.tarea > textarea{
+    flex: 1;
+    height: auto;
+    padding: 5px;
+    margin-top: 2vh;
+    margin-bottom: 1.6vh;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+}
+
+.input {
+    background-color: white;
+}
+
+.output {
+    background-color: antiquewhite;
+}
+
